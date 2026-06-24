@@ -1,0 +1,50 @@
+/* 设置整个页面的基础样式 */
+body {
+  margin: 0;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  background-color: #f3f7fb;
+  color: #222;
+}
+
+/* 让内容显示在页面中间 */
+.card {
+  max-width: 560px;
+  margin: 80px auto;
+  padding: 32px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 28px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+/* 设置按钮样式 */
+button {
+  margin-top: 16px;
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2563eb;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+/* 按钮点击后显示的文字 */
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #0f766e;
+}
