@@ -26,9 +26,14 @@ p {
   line-height: 1.6;
 }
 
+/* 设置按钮排列 */
+.button-group {
+  margin-top: 16px;
+}
+
 /* 设置按钮样式 */
 button {
-  margin-top: 16px;
+  margin: 0 6px;
   padding: 12px 24px;
   font-size: 16px;
   color: #ffffff;
@@ -40,6 +45,14 @@ button {
 
 button:hover {
   background-color: #1d4ed8;
+}
+
+.reset-button {
+  background-color: #64748b;
+}
+
+.reset-button:hover {
+  background-color: #475569;
 }
 
 /* 按钮点击后显示的文字 */
