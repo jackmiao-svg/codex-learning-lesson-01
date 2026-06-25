@@ -6,6 +6,11 @@ body {
   color: #222;
 }
 
+body.dark-mode {
+  background-color: #111827;
+  color: #f9fafb;
+}
+
 /* 让内容显示在页面中间 */
 .card {
   max-width: 560px;
@@ -15,6 +20,11 @@ body {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode .card {
+  background-color: #1f2937;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
 }
 
 h1 {
@@ -55,9 +65,21 @@ button:hover {
   background-color: #475569;
 }
 
+.theme-button {
+  background-color: #0f766e;
+}
+
+.theme-button:hover {
+  background-color: #0d5f59;
+}
+
 /* 按钮点击后显示的文字 */
 #message {
   margin-top: 20px;
   font-weight: bold;
   color: #0f766e;
+}
+
+body.dark-mode #message {
+  color: #5eead4;
 }
